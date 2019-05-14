@@ -42,6 +42,10 @@
             "dest": "/service-worker.js"
         },
         {
+            "src": "/images/icons/(.*)",
+            "dest": "/images/icons/$1"
+        },
+        {
             "src": "/(.*)",
             "headers": {
                 "cache-control": "s-maxage=0"
